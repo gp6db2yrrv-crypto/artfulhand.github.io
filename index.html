@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Artful Hand | Local Artisan Shop</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Google Fonts for elegant typography -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..700;1,400..700&family=Plus+Jakarta+Sans:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!-- NAVIGATION -->
+    <header>
+        <div class="nav-container">
+            <div class="logo">The Artful Hand</div>
+            <nav>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#products">Products</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- HOMEPAGE (HERO) SECTION -->
+    <section id="home" class="hero-section">
+        <div class="hero-content">
+            <h1>Handcrafted by Local Hands</h1>
+            <p>Discover unique, curated pieces created with passion by artisans right in our community.</p>
+            <a href="#products" class="btn">Explore the Collection</a>
+        </div>
+    </section>
+
+    <!-- ABOUT US SECTION -->
+    <section id="about" class="about-section">
+        <div class="container">
+            <div class="about-grid">
+                <div class="about-text">
+                    <h2>Our Story</h2>
+                    <p>At <strong>The Artful Hand</strong>, we believe every object tells a story. We bridge the gap between talented neighborhood makers and those who appreciate the beauty of raw, handcrafted goods.</p>
+                    <p>Every purchase directly supports a local creator, keeping the spirit of craftsmanship alive in our city. From pottery to textiles, everything on our shelves is chosen for its quality, integrity, and soul.</p>
+                </div>
+                <div class="about-image">
+                    <!-- Placeholder image representing local crafts -->
+                    <img src="https://images.unsplash.com/photo-1513519245088-0e12902e5a38?auto=format&fit=crop&q=80&w=800" alt="Artisan workspace">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- PRODUCT/ARTISAN SECTION -->
+    <section id="products" class="product-section">
+        <div class="container">
+            <div class="section-title">
+                <h2>Featured Products</h2>
+                <p>A glimpse at some of our current locally-sourced favorites</p>
+            </div>
+            
+            <div class="product-grid">
+                <!-- Product 1 -->
+                <div class="product-card">
+                    <img src="https://images.unsplash.com/photo-1578749556568-bc2c40e68b61?auto=format&fit=crop&q=80&w=500" alt="Handcrafted Ceramics">
+                    <div class="product-info">
+                        <h3>Earthenware Coffee Mug</h3>
+                        <p class="artisan">by Sarah Jenkins (Ceramics)</p>
+                        <p class="description">Wheel-thrown local clay with a bespoke matte sage glaze.</p>
+                    </div>
+                </div>
+
+                <!-- Product 2 -->
+                <div class="product-card">
+                    <img src="https://images.unsplash.com/photo-1606722590583-6951b5ea92ce?auto=format&fit=crop&q=80&w=500" alt="Organic Soy Candles">
+                    <div class="product-info">
+                        <h3>Botanical Soy Candle</h3>
+                        <p class="artisan">by Wax & Wood Co.</p>
+                        <p class="description">Hand-poured soy wax infused with locally foraged cedar and pine oil.</p>
+                    </div>
+                </div>
+
+                <!-- Product 3 -->
+                <div class="product-card">
+                    <img src="https://images.unsplash.com/photo-1544816155-12df9643f363?auto=format&fit=crop&q=80&w=500" alt="Linen textiles">
+                    <div class="product-info">
+                        <h3>Woven Linen Tote Bag</h3>
+                        <p class="artisan">by Threaded Studio</p>
+                        <p class="description">100% organic linen, hand-dyed using plant-based pigments.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CONTACT SECTION -->
+    <section id="contact" class="contact-section">
+        <div class="container">
+            <div class="section-title">
+                <h2>Visit or Contact Us</h2>
+                <p>Have questions about our current stock or interested in showcasing your work?</p>
+            </div>
+
+            <div class="contact-grid">
+                <!-- Shop Details (Crucial for Local SEO) -->
+                <div class="contact-info-box">
+                    <h3>The Artful Hand</h3>
+                    <p><strong>Address:</strong> 123 Main Street, Downtown Craftsville</p>
+                    <p><strong>Phone:</strong> (555) 123-4567</p>
+                    <p><strong>Email:</strong> hello@theartfulhand.com</p>
+                    
+                    <h4>Hours:</h4>
+                    <p>Tue - Sat: 10:00 AM - 6:00 PM</p>
+                    <p>Sun: 11:00 AM - 4:00 PM</p>
+                    <p>Closed Mondays</p>
+                </div>
+
+                <!-- Contact Form -->
+                <div class="contact-form">
+                    <form action="#" method="POST">
+                        <div class="form-group">
+                            <label for="name">Name</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea id="message" name="message" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="btn">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer>
+        <p>&copy; 2026 The Artful Hand. All Rights Reserved. Supporting local creators.</p>
+    </footer>
+
+</body>
+</html>
